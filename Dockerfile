@@ -25,4 +25,4 @@ COPY --from=build /app /app
 ENV NODE_ENV=production
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
-CMD ["node", "index.js"]  # ou "dist/index.js" se for compilado com build
+CMD ["node", "index.js"]  # ou "src/index.js" se for compilado com build
